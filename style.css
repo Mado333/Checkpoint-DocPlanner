@@ -1,0 +1,344 @@
+.partsize {
+  margin: 0% 10%;
+}
+
+:root {
+  --Greencolor: var(#00b39b);
+  --whitecolor: var(#ffffff);
+  --blackcolor: var(black);
+  --mainfont: var(roboto);
+  --graycolor: var(#747474);
+}
+.navdiv {
+  top: 0;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color:#fff;
+  overflow: hidden;
+  
+}
+.navtext a{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+margin-left: 5px;
+color: #747474;
+}
+.navtext :hover{
+  
+color: #00b39b;
+}
+.section1 {
+  margin: 60px 15%;
+  justify-content: space-around;
+  text-align: center;
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  /* margin: 0 auto; */
+  position: relative;
+}
+.para {
+  display: flex;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.para p {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 12px;
+  inline-size: auto;
+}
+.section1 h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 2.125rem;
+  margin: 34px;
+  color: #00b39b;
+}
+/* cards */
+.section2 {
+  display: flex;
+  margin: 0px 15%;
+  justify-content: space-around;
+}
+.Country {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  text-decoration: underline;
+}
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  height: 365 px;
+  width: 233 px;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 10px;
+  padding: 10px;
+}
+.patients {
+  background-color: #00ccb1;
+}
+.doctors {
+  background-color: #3d83df;
+}
+.clinics {
+  background-color: #1b2734;
+}
+
+/* tableau */
+
+.section3 {
+  margin: 0px 170px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.section3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  list-style: none;
+}
+.section3 h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #00b39b;
+}
+.partext {
+  width: 200px;
+  font-size: 14px;
+  font-weight: 200;
+  display: flex;
+  text-align: left;
+  line-height: 25px;
+}
+.section3 ul li svg {
+  width: 110px;
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  fill: #747474;
+}
+
+.section3 ul li svg:hover {
+  fill: #00b39b;
+}
+.section3 ul li img {
+  width: 70px;
+  height: 30px;
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  filter: invert(47%) sepia(48%) saturate(13%) hue-rotate(98deg) brightness(86%)
+    contrast(81%);
+}
+.section3 ul li img:hover {
+  filter: none;
+}
+
+/* full part */
+
+body .fullpart {
+  width: 100%;
+  height: 500px;
+  background-color: #e5faf8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fullcontent {
+  display: flex;
+  background-image: url(./logo1.png);
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  background-position-y: 180px;
+}
+
+.fulltext {
+  width: 35%;
+  margin-left: 300px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 200;
+}
+.fulltext h1 {
+  color: #00b39b;
+  font-size: 1.65rem;
+}
+.fulltext p {
+  color: var(--blackcolor);
+  font-size: 15px;
+}
+
+.fullcdr {
+  margin-left: 10px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fullcadr h3 {
+  color: #00b39b;
+}
+.fullcadr {
+  width: 170px;
+  height: 200px;
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: white;
+}
+.fullcdr p {
+  font-size: 10px;
+  color: #747474;
+}
+
+.small {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+/* empty box */
+
+.empty {
+  width: 100%;
+  height: 700px;
+  margin: 10px;
+
+  border-style: 5px solid black;
+}
+.zayed {
+  width: 50%px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.zayed h1 {
+  display: flex;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 26px;
+  color: #00b39b;
+}
+.zayed p {
+  font-size: 16px;
+  color: #747474;
+}
+.dim {
+  width: 400px;
+  height: 200px;
+}
+.postcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
+  cursor: pointer;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.city img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.postcard :hover {
+  box-shadow: 5px 15px 20px 20px rgb(240, 240, 240);
+}
+.city :hover {
+  box-shadow: none;
+}
+.opening {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold 300;
+}
+.opening a {
+  border-radius: 4px;
+  background-color: #3d83df;
+  padding: 7px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.opening p {
+  font-size: 22px;
+}
+.city1 {
+  width: 300px;
+  height: 350px;
+}
+.postcard .city1 {
+  box-shadow: none;
+  cursor: none;
+}
+
+.last {
+  width: 20%px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.lastbox {
+  width: 600px;
+  height: 100px;
+}
+.lastbox h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+}
+.last a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #3d83df;
+  padding: 15px;
+
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+}
